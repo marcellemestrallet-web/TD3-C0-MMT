@@ -8,7 +8,7 @@ Afficher leurs noms et leurs groupes dans la méthode de classe afficher_resume
 
 class Etudiant:
     nombre_etudiants = 0  # Variable de classe
-
+    
     # Méthode de classe : travaille sur les données communes à toute la classe (cls.nombre_etudiants).
     # L'appel instance.foo() transmet automatiquement la classe cls comme premier argument de la méthode 
     @classmethod

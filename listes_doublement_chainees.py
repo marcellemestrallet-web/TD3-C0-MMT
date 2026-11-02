@@ -33,6 +33,15 @@ class ListeDoublementChainee:
         pass
 
     def inserer_queue(self, val):
+        # Si liste vide :
+        #   self.tete = CelluleDoublementChainee(val)
+        #   self.queue = self.tete
+        # Sinon : 
+        #   nouvelle = CelluleDoublementChainee(val)
+        #   self.queue.suivant = nouvelle
+        #   nouvelle.precedent = self.queue
+        #   self.queue = nouvelle
+        
         pass
  
     def supprimer_queue(self):      
